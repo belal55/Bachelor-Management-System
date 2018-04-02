@@ -1,0 +1,33 @@
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\BachelorMangementSystem.exe.config
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\BachelorMangementSystem.exe
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\BachelorMangementSystem.pdb
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\obj\Debug\BachelorMangementSystem.Form1.resources
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\obj\Debug\BachelorMangementSystem.Properties.Resources.resources
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\obj\Debug\BachelorMangementSystem.csproj.GenerateResource.Cache
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\obj\Debug\BachelorMangementSystem.exe
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\obj\Debug\BachelorMangementSystem.pdb
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\obj\Debug\BachelorMangementSystem.AdminDashboard.resources
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\Database2.mdf
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\Database2_log.ldf
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\itextsharp.dll
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\itextsharp.pdfa.dll
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\itextsharp.xtra.dll
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\itextsharp.xml
+C:\Users\Frozen\Documents\Visual Studio 2012\Projects\BachelorMangementSystem\BachelorMangementSystem\obj\Debug\BachelorMangementSystem.csprojResolveAssemblyReference.cache
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\BachelorMangementSystem.exe.config
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\obj\Debug\BachelorMangementSystem.exe
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\obj\Debug\BachelorMangementSystem.pdb
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\Database2.mdf
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\Database2_log.ldf
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\BachelorMangementSystem.exe
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\BachelorMangementSystem.pdb
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\itextsharp.dll
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\itextsharp.pdfa.dll
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\itextsharp.xtra.dll
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\bin\Debug\itextsharp.xml
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\obj\Debug\BachelorMangementSystem.csprojResolveAssemblyReference.cache
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\obj\Debug\BachelorMangementSystem.AdminDashboard.resources
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\obj\Debug\BachelorMangementSystem.Form1.resources
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\obj\Debug\BachelorMangementSystem.Properties.Resources.resources
+E:\Projects\BachelorMangementSystem\BachelorMangementSystem\obj\Debug\BachelorMangementSystem.csproj.GenerateResource.Cache

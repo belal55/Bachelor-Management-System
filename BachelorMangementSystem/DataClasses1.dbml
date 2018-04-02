@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database2" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Database2.mdf;Integrated Security=True" SettingsObjectName="BachelorMangementSystem.Properties.Settings" SettingsPropertyName="Database2ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Meal" Member="Meals">
+    <Type Name="Meal">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="uid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="day" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="night" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Member_Meal" Member="Member" ThisKey="uid" OtherKey="Id" Type="Member" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Balance" Member="Balances">
+    <Type Name="Balance">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="uid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="amount" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Member_Balance" Member="Member" ThisKey="uid" OtherKey="Id" Type="Member" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Bazar" Member="Bazars">
+    <Type Name="Bazar">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="uid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="amount" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Mess" Member="Messes">
+    <Type Name="Mess">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TotalBalance" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TotalMeal" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MealRate" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TotalMember" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TotalBazar" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TodaysMeal" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TodaysShopping" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Member" Member="Members">
+    <Type Name="Member">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="balance" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="totalmeals" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bills" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="due" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="Member_Meal" Member="Meals" ThisKey="Id" OtherKey="uid" Type="Meal" />
+      <Association Name="Member_Balance" Member="Balances" ThisKey="Id" OtherKey="uid" Type="Balance" />
+    </Type>
+  </Table>
+</Database>
